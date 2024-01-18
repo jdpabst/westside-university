@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class History extends Component {
-  render() {
+const History = () => {
+  
     return (
       <div>
         <h1 className='title'>History of WestSide University:</h1>
@@ -14,5 +14,6 @@ export default class History extends Component {
         Morbi viverra quam dui. Quisque accumsan sed felis at gravida. Duis sed nibh dui. Etiam eu aliquam ligula, ac iaculis lorem. Vivamus non enim semper, vehicula quam hendrerit, dignissim diam. Integer eleifend nisl non magna vestibulum feugiat. Sed pellentesque, nisl ut fringilla dapibus, tortor augue porttitor nulla, rhoncus convallis erat enim gravida nulla. Aliquam ac euismod sem. Nulla non ultrices sapien. Vivamus sagittis eget leo vitae sagittis. Maecenas quis leo lacus. Ut sed aliquet orci.</p>
       </div>
     )
-  }
 }
+
+export default History;
